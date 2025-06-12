@@ -8,6 +8,7 @@ androidx-lifecycle = "2.9.0"
 composeMultiplatform = "1.8.1"
 kotlin = "2.1.21"
 koin = "4.0.4"
+kermitVersion = "2.0.5"
 
 [libraries]
 # Core
@@ -22,6 +23,9 @@ koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", versi
 koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 koin-compose = { module = "io.insert-koin:koin-compose", version.ref = "koin" }
 koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", version.ref = "koin" }
+
+# Kermit (Logs)
+kermit = { module = "co.touchlab:kermit", version.ref = "kermitVersion" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
